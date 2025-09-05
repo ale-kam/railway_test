@@ -7,4 +7,4 @@ from pprint import pprint
 
 load_dotenv()
 
-pprint(os.envion.keys())
+pprint(dict(os.environ.items()))
